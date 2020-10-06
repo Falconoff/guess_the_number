@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #aaa;
+	font-family: Arial;
+	font-size: 24px;
+	color: #555;
+	box-sizing: border-box;
+}
+
+p {
+	min-height: 30px;
+	text-shadow: 2px 2px #ccc; 
+}
+
+.main {
+	min-height: 500px;
+	width: 600px;
+	margin: 50px auto;
+	border-radius: 15px;
+	box-shadow: 15px 15px 5px -5px #777;
+}
+
+.container {
+	/*min-height: 500px;
+	width: 600px;
+	margin: 50px auto;*/
+	min-height: 500px;
+
+	background-color: #ccc;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 15px 15px 10px #777;
+	box-shadow: inset 5px 5px 20px #888;
+	border-radius: 15px;
+	border: 5px solid #eee;
+}
+
+.text {
+	text-align: center;
+}
+
+.button {
+	height: 50px;
+	width: 200px;
+	box-shadow: 5px 8px 10px gray;
+	font-size: 24px;
+	background-image: linear-gradient(#eee, #bbb 40%, #bbb 60%, #ddd);
+	border-radius: 20px;
+	color: #335;
+	text-shadow: #fff -1px -1px; 
+}
+
+#txt {
+	height: 43px;
+	width: 70px;
+	text-align: center;
+	font-size: 24px;
+	color: #555;
+	font-weight: 700;
+	border-radius: 10px;
+	margin-right: 20px;
+}
+
+/*ползунок*/
+#nr {
+	width: 400px;
+}
+
+#gen, #rez1 {
+	color: #fff;
+}
