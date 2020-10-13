@@ -26,11 +26,7 @@ p {
 }
 
 .container {
-	/*min-height: 500px;
-	width: 600px;
-	margin: 50px auto;*/
 	min-height: 500px;
-
 	background-color: #ccc;
 	padding: 30px;
 	display: flex;
@@ -76,4 +72,8 @@ p {
 
 #gen, #rez1 {
 	color: #fff;
+}
+
+.victory {
+	color: red;
 }

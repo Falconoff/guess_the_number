@@ -1,14 +1,16 @@
 let nr=0;
 restart(nr);
+// ползунок-помощник
 function catchNumber() {
 	let message = "";
 	let value2 = document.getElementById("nr").value;
-	message = ((value2>=nr-10)&&(value2<=nr+10))?"Тепло":"Холодно";
-	if (value2==nr) {message = "<span class='victory'>Это оно!!!</span>"};
+	message = ((value2>=nr-20)&&(value2<=nr+20))?"Тепло":"Холодно";
+	if ((value2>=nr-5)&&(value2<=nr+5)) {message = "<span class='victory'>Гарячо!</span>"};
 	document.getElementById("rez1").innerHTML = message;
 	document.getElementById("gen").innerHTML = value2;
 }
 
+// вводим свой вариант ответа
 function enterNumber() {
 	let value2 = document.getElementById("txt").value;
 	let shablon = /^[0-9]{1,2}$/; 		/*регулярное выражение, требующее одно- или двухзначное число*/
